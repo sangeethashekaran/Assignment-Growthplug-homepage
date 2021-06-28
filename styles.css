@@ -1,0 +1,589 @@
+/* .first {
+    background-color: rgb(248 244 239);
+} */
+ 
+
+ 
+
+.dropbtn {
+
+    background-color:transparent;
+    color: black;
+    padding: 16px;
+    font-size: 17px;
+    border-style: hidden;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+
+}
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+
+.dropdown:hover .dropbtn {
+  color: #007259;
+  border-bottom: 4px solid #007259;
+
+}
+
+
+
+/* section 1 - background image */
+.background-img{
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+/* logo img */
+.logo{
+    margin-top:120px;
+    margin-left:-60px;
+}
+
+/* phon num */
+.phonum{
+    margin-left:250px;
+  margin-top:21px;
+  background-color: #e8dccb;
+  border-radius: 5px;
+  width:150px;
+  height: 40px;
+  color:#3a3a3a;
+}
+
+
+/* book appointment button */
+#sectionfirst .btn-success{
+    border-radius: 10px;
+    border-color: white;
+    border-width: 3px;
+    width: 220px;
+    position: relative;
+    left: 28%;
+    top:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* family dentistry */
+#sectionfirst p{
+    position: relative;
+    left:30%;
+    font-size: 28px;
+    color:#007259;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* section 2 */
+
+.welcome{
+ padding:130px 26px;
+ 
+}
+/* new patient welcome */
+.title{
+    font-family: "Castoro", seri;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    /* padding-bottom: 60px; */
+}
+
+
+/* we want to ur patient */
+#sectiontwo h4{
+    color:grey;
+    font-family: "Castoro", seri;
+    font-size:23px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 60px;
+}
+#sectiontwo .btn{
+    width: 300px;
+    height:45px;
+    border-radius: 5px;
+    border-color:  black;
+    border: 1 px solid black;
+    
+    /* display:inline-block; */
+    text-align: center;
+    font-family: "Castoro", seri;
+    letter-spacing: 1px;
+    font-size:22px;
+    font-weight: 500;
+}
+
+.but2{
+    margin-left:40px;
+}
+.but3{
+    margin-left:40px;
+}
+/* div of three buttons */
+.threebutton{
+    padding:13px 171px;
+    display:inline-block;
+    margin-bottom: 90px;
+    
+}
+
+/* section 3 */
+
+#sectionthree{
+background-color: rgb(248 244 239);
+
+}
+/* doctor name */
+.head{
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+.dr1{
+    width:400px;
+    height:400px;
+}
+
+.dr2{
+    width:400px;
+    height:400px
+}
+
+.line2{
+    width:10%;
+    position: relative;
+    left: 600px;
+    height: 5px!important;
+    
+}
+.btn-outline-success{
+    width:200px;
+    height:50px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+
+/* section 4 services */
+#sectionfour h1{
+    text-align: center;
+    margin-top:90px;
+    font-family: "Castoro", seri;
+  
+}
+
+#sectionfour li {
+    
+        margin-left: 90px;
+        font-family: 'Times New Roman', Times, serif;
+        display: inline-block;
+        width: 630px;
+        text-transform: uppercase;
+        height: 68px;
+        font-size: 24px;
+        border: 1px solid #3a4241;
+        margin: 4px 4px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.left{
+    background-color:rgba(232, 220, 203, 0.3) ;
+}
+
+.right{
+    background-color:rgba(195, 213, 207, 0.3);
+}
+.logo2{
+    display: none;
+}
+
+@media(max-width:1080px){
+    .logo2{
+     display:inline-block;
+     width: 30%;
+      }
+    .logo{
+        display: none;
+    }
+    #sectionfirst p{
+        display:none;
+    }
+    #sectionfirst .btn-success{
+        display: none;
+    }
+    
+}
+
+
+
+/* section five photos */
+
+#sectionfive{
+    background-color:rgba(232, 220, 203, 0.3);
+    margin-top: 90px;
+    height:1100px;
+    width:100%;
+}
+
+#sectionfive h2{
+text-align: center;
+padding-top: 100px;
+font-weight: 500;
+font-family: 'Times New Roman', Times, serif;
+color:#007259;
+
+}
+.col p{
+    color: lightslategray;
+}
+
+
+ 
+/* whole imgs */
+.imge{
+    width: 240px;
+    height: 240px;
+    border-radius:10%;
+    border-radius: 10px solid white;
+
+}
+.teamimag1{
+    position:relative;
+    left:44%;
+}
+.teamimag2{
+    position:relative;
+    left:25%;
+}
+.teamimag3{
+    position:relative;
+    left:8%;
+}
+
+.teamimag4{
+    position:relative;
+    left:-10%;
+}
+
+.teamimag5{
+    position:relative;
+    left:18%
+}
+.teamimag6{
+    position:relative;
+    left:-38%;
+}
+.teamimag7{
+position: relative;
+top:-418px;
+left:53px;
+}
+
+.text1{
+    position: relative;
+    left: 48%;
+    top:-61px;
+}
+.text2{
+    position: relative;
+    left: 27%;
+    top:-54px;
+}
+.text3{
+    position: relative;
+    left: 12%;
+    top:-52px;
+}
+.text4{
+    position: relative;
+    left: -7%;
+    top:-59px;
+}
+.text5{
+    position: relative;
+    left: 18%;
+    top:-72px;
+}
+.text6{
+    position: relative;
+    left: -38%;
+    top:-73px;
+}
+
+.text7{
+    position: relative;
+    top: -500px;
+    left: 9%;
+}
+
+
+.col{
+    text-align: center;
+}
+
+/* section six */
+.container{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  /* .container img {vertical-align: middle;
+
+  } */
+  
+  .container .content {
+    position: absolute;
+    bottom: 111px;
+    left:31%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 40%;
+    font-size: 23px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Castoro", seri;
+    letter-spacing: 2px;
+    border-radius:5%;
+    border:1px solid white;
+    height:310px;
+  }
+  
+    .philo{
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        top: -89px;
+        letter-spacing: 13px;
+        color: white;
+      
+  }
+
+  /* section 7 */
+  .insur-head{
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      padding-top: 100px;
+  }
+  .insur-para{
+        width: 900px;
+        margin: 30px auto;
+        font-size: 24px;
+        font-weight: 200;
+        font-family: 'Times New Roman', Times, serif;
+        color: gray;
+        text-align: center;
+      
+    }
+    #sectionseven li{
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 13px;
+       margin-right: 19px; 
+        width:150px;
+        height:100px;
+        background-color: white;
+        padding:10px;
+    }
+    .insurance-list{
+        margin-left:200px;
+    }
+
+    .img-responsive{
+        width:120px;
+        height:70px;
+    }
+    .secrow{
+        margin-left: 93px;
+        /* left: 93px; */
+        margin-top: 30px;
+    }
+    .button{
+    margin-left: 20%;
+    margin-top: 25px;
+    width: 50%;
+    height: 43px;
+    border-radius: 5%;
+    
+}
+
+/* section 8 */
+.landscape{
+    background-image: url("images/landscap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:500px;
+}
+#sectioneight{
+    margin-top:70px;
+}
+
+.container{
+    padding: 1rem;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    color:white;
+}
+.patient-head{
+    text-align: center;
+    font-size: 40px;
+    margin:0 0 0.5em 0;
+    padding:0;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    width:86%;
+    text-align: center;
+    padding-left:13%;
+    padding-top: 12px;
+    font-style: italic;
+    margin-top: 3%;
+    font-size:20px;
+    font-family:Castaro serif;
+}
+
+.slid-line{
+    width:20%;
+    margin-left: 300px;
+}
+.authname{
+    position: relative;
+    left:470px;
+}
+    
+.star{
+    position:relative;
+    left:480px;
+}
+.d-block{
+    width: 10%;
+}.google{
+    position: relative;
+    left: 43%;
+}
+
+/* section 9 */
+
+.officetitle{
+    position: relative;
+    left:270px;
+    top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#007259;
+    letter-spacing: 30%;
+}
+.location-time li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted;
+    color:#363636 !important;
+    position:relative;
+    left:140px;
+    top:80px;
+}
+
+.time{
+   position: relative; 
+   left: 100px;
+}
+.location{
+    position: relative;
+    left:500px;
+}
+.loctitle{
+    margin-top: 60px;
+    color:#007259;
+    font-family: 'Times New Roman', Times, serif;
+}
+.locdescr{
+    position:relative;
+    top:30px;
+}
+  
+.phon{
+    background-color: #e8dccb;
+    width: 160;
+    height:40px;
+    border-color:  black;
+    border-radius: 20px;
+}
+
+.icons{
+    margin-top: 12px;
+position: relative;
+left: 6%;
+color: #007259;
+font-size: 35px;
+
+}
+/* footer section */
+.foottext{
+    margin-top:80px;
+    text-align: center;
+    color: #007259;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    word-spacing: 40px;
+}
+.copy{
+  
+    background-color: #007259;
+    margin-top: 40px;
+    height:50px;
+    text-align: center;
+    color:white;
+    padding-top:15px;
+}
+  
+
+
+
+
+ 
