@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mainstyle.css">
   <script src="https://use.fontawesome.com/e452814d57.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
     <img class="logo2" src="images/logoimg.jpg">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -119,9 +119,9 @@
       <h4>We want you to be our patient!</h4>
     </div>
     <div class="threebutton">
-      <a class="btn btn-light but1">Introduction</a>
-      <a class="btn btn-light but2 ">Testimonials</a>
-      <a class="btn btn-success but3">Book an appointment</a>
+      <a class="btn btn-light but1 butresp">Introduction</a>
+      <a class="btn btn-light but2 butresp">Testimonials</a>
+      <a class="btn btn-success but3 butresp">Book an appointment</a>
 
     </div>
 
@@ -132,14 +132,15 @@
   <section id="sectionthree">
     <h2 class="head">ABOUT DR. HU</h2>
     <hr class="line2">
-    <div class="row mt-lg-5">
+    <div class="div1">
+    <div class="row row1">
       <!-- mt-margin top -->
-      <div class="col-2"></div>
+      <!-- <div class="col-2"></div> -->
 
-      <div class="col-4">
+      <div class="col-md-6 one">
         <img class="dr1" src="./images/dr-hu.jpg" alt="">
       </div>
-      <div class="col-5">
+      <div class="col-md-6 content1">
 
         <p class="content">
 
@@ -174,7 +175,7 @@
         <div><button class="btn btn-outline-success">Learn More</button></div>
         <br>
       </div>
-      <div class="col-1"></div>
+      </div>
     </div>
 
     <br>
@@ -182,14 +183,15 @@
 
     <h2 class="head">ABOUT DR. LI</h2>
     <hr class="line2">
-    <div class="row mt-lg-5">
+    <div class="div1">
+    <div class="row row2">
       <!-- mt-margin top -->
-      <div class="col-2"></div>
+      
 
-      <div class="col-4">
-        <img class="dr2" src="./images/dr-ling.jpg" alt="">
+      <div class="col-md-6 one">
+        <img class="dr1 dr2" src="./images/dr-ling.jpg" alt="">
       </div>
-      <div class="col-5">
+      <div class="col-md-6 content1">
 
         <p class="content">
 
@@ -204,7 +206,7 @@
 
         <br>
       </div>
-      <div class="col-2"></div>
+    </div>
     </div>
   </section>
   <!-- section 4   services-->
@@ -244,28 +246,28 @@
     <h2>WE ARE HERE TO HELP</h2>
     <hr class="line2">
     <div class="row">
-      <div class="col">
+      <div class="col imghover">
         <img class="imge teamimag1" src="images/volanta.jpg">
         <div class="text-wrap text1">
           <h2>Volanta Peng</h2>
           <p>Office Manager</p>
         </div>
       </div>
-      <div class="col">
+      <div class="col imghover">
         <img class="imge teamimag2" src="images/ashley2.jpg">
         <div class="text-wrap text2">
           <h2>Ashley Hall</h2>
           <p>Dental Hygienist</p>
         </div>
       </div>
-      <div class="col">
+      <div class="col imghover">
         <img class="imge teamimag3" src="images/denise3.jpg">
         <div class="text-wrap text3">
           <h2>Denise Alveshire</h2>
           <p>Dental Hygienist</p>
         </div>
       </div>
-      <div class="col">
+      <div class="col imghover">
         <img class="imge teamimag4" src="images/julia4.jpg">
         <div class="text-wrap text4">
           <h2>Julia Adams</h2>
@@ -274,8 +276,8 @@
 
       </div>
 
-      <div class="row">
-        <div class="col">
+      <div class="row ">
+        <div class="col imghover">
           <img class="imge teamimag5" src="images/iris5.jpg">
           <div class="text-wrap text5">
             <h2>Iris Lopez</h2>
@@ -283,13 +285,13 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col imghover">
           <img class="imge teamimag6" src="images/anna6.jpg">
           <div class="text-wrap text6">
             <h2>Anna Scotchie</h2>
             <p>Receptionist and Junior Insurance Coordinator</p>
           </div>
-          <div class="col">
+          <div class="col imghover">
             <img class="imge teamimag7" src="images/Lihong7.jpg">
             <div class="text-wrap text7">
               <h2>Lihong</h2>
@@ -301,32 +303,30 @@
   </section>
 
   <!-- section six -->
-  <section id="sectionsix">
-
-    <div class="container">
-
-
-      <img src="images/benchbg.jpg" alt="" style="width:100%; ">
-
-
-      <div class="row">
-
-        <div class="col-4">
-        </div>
-        <div class="col-4 content">
-          <h3 class="philo">Our Philosophy</h3>
-          <!-- <hr class="line2"> -->
-          <p>
-            We are dedicated to providing the highest quality of dental care to our patients. Through excellence in
-            dentistry and quality in relationships, we can have a positive influence on our patient's oral health,
-            aesthetics, and self-esteem.
-          </p>
-        </div>
-        <div class="col-4"></div>
-
-      </div>
+  <div id="sectionsix">
+    <div class="container-fluid bg-img">
+        <div class="parallax"></div>
+        <div class="row">
+    
+            <div class="col-4">
+            </div>
+            <div class="col-4 content">
+              <h3 class="philo">Our Philosophy</h3>
+              <!-- <hr class="line2"> -->
+              <p>
+                We are dedicated to providing the highest quality of dental care to our patients. Through excellence in
+                dentistry and quality in relationships, we can have a positive influence on our patient's oral health,
+                aesthetics, and self-esteem.
+              </p>
+            </div>
+            <div class="col-4"></div>
+    
+          </div>
+    
+    
+    
     </div>
-  </section>
+    </div>
   <!-- section 7 -insurance -->
   <section id="sectionseven">
     <div class="insur-head">
@@ -437,7 +437,6 @@
                     </span>
                   </div>
                 </div>
-              </div>
               <div class="carousel-item">
                 <div class="para">
                   <p>""</p>
@@ -487,7 +486,7 @@
     </div>
     </div>
 
-
+  </div>
     </div>
   </section>
 
